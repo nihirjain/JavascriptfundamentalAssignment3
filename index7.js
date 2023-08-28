@@ -22,3 +22,9 @@ function todelete(name){
 useradd("john",17,"John@gmail.com")
 // console.log(UserMap)
 console.log(UserMap)
+
+update("john",18,"Johnia@gmail.com")
+console.log(UserMap)
+
+todelete("john")
+console.log(UserMap)
